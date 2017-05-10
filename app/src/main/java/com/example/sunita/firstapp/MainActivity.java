@@ -14,31 +14,35 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout linearroot=new LinearLayout(this);
-        linearroot.setOrientation(linearroot.VERTICAL);
-        LinearLayout.LayoutParams linear=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
-        linearroot.setLayoutParams(linear);
+        LinearLayout linearoot=new LinearLayout(this);
+        linearoot.setOrientation(linearoot.VERTICAL);
+        LinearLayout.LayoutParams linear=new LinearLayout.LayoutParams(500,500);
+        linearoot.setLayoutParams(linear);
 
         final EditText txt=new EditText(this);
         txt.setHint("Type here");
-        LinearLayout.LayoutParams linear1=new LinearLayout.LayoutParams(500,150);
-        txt.setLayoutParams(linear1);
-        linearroot.addView(txt);
+        LinearLayout.LayoutParams linearoot1=new LinearLayout.LayoutParams(500,100);
+        //LinearLayout.LayoutParams linearoot1= new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
+        txt.setLayoutParams(linearoot1);
+        linearoot.addView(txt);
 
-        Button butn=new Button(this);
-        butn.setText("Click butn");
-        butn.setOnClickListener(new View.OnClickListener() {
+        Button btn=new Button(this);
+        btn.setText("CLICK");
+        btn.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v) {
-             String str=txt.getText().toString();
+                String str=txt.getText().toString();
                 txt.setText(str.toUpperCase());
             }
         });
-        butn.setText("OK");
+
+
+        btn.setText("OK");
         LinearLayout.LayoutParams b1=new LinearLayout.LayoutParams(500,100);
-        butn.setLayoutParams(b1);
-        linearroot.addView(butn);
-        setContentView(linearroot);
+        btn.setLayoutParams(b1);
+        linearoot.addView(btn);
+        setContentView(linearoot);
 
 
 
