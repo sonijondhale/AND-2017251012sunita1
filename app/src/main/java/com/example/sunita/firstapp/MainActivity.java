@@ -14,42 +14,31 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout linearoot=new LinearLayout(this);
+        LinearLayout linearoot = new LinearLayout(this);
         linearoot.setOrientation(linearoot.VERTICAL);
-        LinearLayout.LayoutParams linear=new LinearLayout.LayoutParams(500,500);
+        LinearLayout.LayoutParams linear = new LinearLayout.LayoutParams(500,500);
         linearoot.setLayoutParams(linear);
 
-        final EditText txt=new EditText(this);
+        final EditText txt = new EditText(this);
         txt.setHint("Type here");
-        LinearLayout.LayoutParams linearoot1=new LinearLayout.LayoutParams(500,100);
+        LinearLayout.LayoutParams linearoot1 = new LinearLayout.LayoutParams(500,100);
         //LinearLayout.LayoutParams linearoot1= new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
         txt.setLayoutParams(linearoot1);
         linearoot.addView(txt);
 
-        Button btn=new Button(this);
+        Button btn = new Button(this);
         btn.setText("CLICK");
-        btn.setOnClickListener(new View.OnClickListener()
-        {
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str=txt.getText().toString();
+                String str = txt.getText().toString();
                 txt.setText(str.toUpperCase());
             }
         });
-
-
         btn.setText("OK");
-        LinearLayout.LayoutParams b1=new LinearLayout.LayoutParams(500,100);
+        LinearLayout.LayoutParams b1 = new LinearLayout.LayoutParams(500,100);
         btn.setLayoutParams(b1);
         linearoot.addView(btn);
         setContentView(linearoot);
-
-
-
-
-
-
-
-
     }
 }
