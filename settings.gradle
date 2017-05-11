@@ -1,1 +1,1 @@
-include ':app', ':uixml', ':calculator', ':uixmlchanges', ':uixmlcalculator'
+include ':app', ':uixml', ':calculator', ':uixmlchanges', ':uixmlcalculator', ':simplecalc', ':viewmeasureunits', ':relativelayout'

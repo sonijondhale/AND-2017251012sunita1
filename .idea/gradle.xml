@@ -11,9 +11,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/calculator" />
+            <option value="$PROJECT_DIR$/relativelayout" />
+            <option value="$PROJECT_DIR$/simplecalc" />
             <option value="$PROJECT_DIR$/uixml" />
             <option value="$PROJECT_DIR$/uixmlcalculator" />
             <option value="$PROJECT_DIR$/uixmlchanges" />
+            <option value="$PROJECT_DIR$/viewmeasureunits" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
