@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FirstApp.iml" filepath="$PROJECT_DIR$/FirstApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/uixml/uixml.iml" filepath="$PROJECT_DIR$/uixml/uixml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uixmlcalculator/uixmlcalculator.iml" filepath="$PROJECT_DIR$/uixmlcalculator/uixmlcalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uixmlchanges/uixmlchanges.iml" filepath="$PROJECT_DIR$/uixmlchanges/uixmlchanges.iml" />
     </modules>
   </component>
 </project>
