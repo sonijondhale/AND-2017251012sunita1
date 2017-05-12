@@ -1,1 +1,1 @@
-include ':app', ':uixml', ':calculator', ':uixmlchanges', ':uixmlcalculator', ':simplecalc', ':viewmeasureunits', ':relativelayout'
+include ':app', ':uixml', ':calculator', ':uixmlchanges', ':uixmlcalculator', ':simplecalc', ':viewmeasureunits', ':relativelayout', ':nestedlayout', ':layoutscreendemo1', ':nestedlayoutdemo'

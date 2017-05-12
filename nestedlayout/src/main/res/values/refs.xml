@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="os">1</drawable>
+    <drawable name="mob">1</drawable>
+</resources>

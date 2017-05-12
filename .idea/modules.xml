@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/FirstApp.iml" filepath="$PROJECT_DIR$/FirstApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layoutscreendemo1/layoutscreendemo1.iml" filepath="$PROJECT_DIR$/layoutscreendemo1/layoutscreendemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nestedlayout/nestedlayout.iml" filepath="$PROJECT_DIR$/nestedlayout/nestedlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nestedlayoutdemo/nestedlayoutdemo.iml" filepath="$PROJECT_DIR$/nestedlayoutdemo/nestedlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplecalc/simplecalc.iml" filepath="$PROJECT_DIR$/simplecalc/simplecalc.iml" />
       <module fileurl="file://$PROJECT_DIR$/uixml/uixml.iml" filepath="$PROJECT_DIR$/uixml/uixml.iml" />
